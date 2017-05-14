@@ -1,9 +1,9 @@
 # The ultimate tmux config file!!
 
-Supports clipboard, vim, nesting managing, and common navigation stuff
+Supports clipboard, vim, nesting managing, common navigation stuff, and more!
 
 
-TLDR; copy tmux.conf to ~/.tmux.conf or execute ./cpconf (yeah im that loose). 
+TLDR; copy tmux.conf to ~/.tmux.conf or execute ./cpconf (yeah im that loose). Tested in tmux 2.1
 
 For direct system clipboard support, install xclip (apt install xclip in ubuntu), and for nice vim support, copy into your .vimrc:
 
@@ -23,6 +23,7 @@ tmux.genfile adds a simple #$tag syntax to detect-manage the conf sections or va
 On generate.js (node), the file and its main sections are joined.
 
 The main reason to this was the need to unbind or bind sets of keys (f.e. nesting) confortably and fast for experimenting.
+
 
 ## Key mapping
 
